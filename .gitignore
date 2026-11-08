@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+**/.venv/
+venv/
+**/venv/
+env/
+**/env/
+
+# Build artifacts
+frontend/dist/
+frontend/.vite/
+**/dist/
+**/.vite/
+*.tsbuildinfo
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables & secrets (CRITICAL)
+.env
+**/.env
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa*
+id_ed25519*
+*.p12
+*.pfx
+
+# Logs
+*.log
+**/logs/

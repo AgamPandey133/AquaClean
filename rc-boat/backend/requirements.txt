@@ -1,0 +1,8 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+websockets==12.0
+lgpio==0.2.2.0; platform_system=="Linux"
+gpiozero==2.0.1; platform_system=="Linux"
+picamera2==0.3.21; platform_system=="Linux"
+pydantic==2.9.0
+Pillow==10.4.0
